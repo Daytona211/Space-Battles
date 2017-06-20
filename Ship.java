@@ -105,8 +105,8 @@ public class Ship extends Item{
     if (attackScore > defenseScore){
       
       // if the ship is not destroyed
-      if (toBeAttacked.getHull() > (attackScore - defenseScore) || (toBeAttacked.getHull() == 0)) {
-      toBeAttacked.setHull(toBeAttacked.getHull() - (attackScore - defenseScore));
+      if (tobeAttacked.getHull() > (attackScore - defenseScore) || (tobeAttacked.getHull() == 0)) {
+      tobeAttacked.setHull(tobeAttacked.getHull() - (attackScore - defenseScore));
       return;
       }
       // if ship is destoyed
